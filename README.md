@@ -7,6 +7,7 @@ of the employee. The chosen place to store is a relational database.
 
 TODO = Based in the existing code, you need to code the part to save the state in the database.
 
+Our system doesn't have high performance requirements. We do not need to process millions of events per minute.
 
 # Note:
 Every time an employee is created/changed, we need to export this data to downstream systems.
