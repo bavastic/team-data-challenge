@@ -15,7 +15,6 @@ data class Employee (
     val city: String,
     val active: Boolean,
     val dateCreated: Instant,
-    val dateLastUpdate: Instant
 )
 
 interface EmployeeRepository : JpaRepository<Employee, UUID>
