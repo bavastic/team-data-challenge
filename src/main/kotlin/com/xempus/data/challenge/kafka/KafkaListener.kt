@@ -29,14 +29,6 @@ class KafkaListener(
         exportEmployee(event.employeeId)
     }
 
-    @KafkaHandler
-    fun listen(event: EmployeeActivatedEvent) {
-
-        // TODO
-
-        exportEmployee(event.employeeId)
-    }
-
     private fun exportEmployee(employeeId: UUID){
         // event which triggers update to downstream system
         operations.send(UUID.randomUUID().toString(),

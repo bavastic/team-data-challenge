@@ -21,11 +21,6 @@ data class EmployeeUpdatedEvent (
     val dateUpdated: Instant,
 )
 
-data class EmployeeActivatedEvent (
-    val employeeId: UUID,
-)
-
-
 data class ExportEmployeeEvent(
     val employeeId: UUID,
 )
