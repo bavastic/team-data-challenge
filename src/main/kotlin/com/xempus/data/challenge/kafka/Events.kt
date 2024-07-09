@@ -8,7 +8,6 @@ data class EmployeeCreatedEvent (
     val name: String,
     val email: String,
     val address: String,
-    val city: String,
     val dateCreated: Instant,
     )
 
@@ -17,7 +16,6 @@ data class EmployeeUpdatedEvent (
     val name: String,
     val email: String,
     val address: String,
-    val city: String,
     val dateUpdated: Instant,
 )
 
