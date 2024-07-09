@@ -12,8 +12,6 @@ data class Employee (
     val name: String,
     val email: String,
     val address: String,
-    val city: String,
-    val active: Boolean,
     val dateCreated: Instant,
 )
 
